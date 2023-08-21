@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( #cf2452 , #da6062 50% , #da3062 60% , #CF2425 );
+}
