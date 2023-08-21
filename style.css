@@ -3,22 +3,35 @@
     margin: 0;
     box-sizing: 0;
 }
+
 body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient( #cf2452 , #da6062 50% , #da3062 60% , #CF2425 );
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 
 }
+
 header{
-    background-color: green;
     height: 100px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    gap: 24px;
 }
+
+header span{
+    font-weight: 600;
+}
+
 main{
     background-color: blue;
     flex-grow: 1;
 }
+
 footer{
     background-color: #da3062;
     height: 100px;
+}
