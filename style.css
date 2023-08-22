@@ -83,4 +83,11 @@ footer{
         width: 100px;
         text-align: center;
     }
+    .content-image{
+        height: 70vh;
+    }
+    footer{
+        padding: 0px 25px;
+        color: #ffffff;
+    }
 }
